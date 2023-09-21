@@ -51,7 +51,7 @@ SOAL
       >>Cara pengerjaan:
       - Dalam informasi paket menampilkan protokol apa yang dipakai dalam paket tersebut, yaitu UDP
      
-     Screenshot pengerjaan:
+     >>Screenshot pengerjaan:
 
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal3.png">
       
