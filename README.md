@@ -33,7 +33,7 @@ SOAL
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal1.png">
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal1_1.png">
    
-3. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
+2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
    >>Cara pengerjaan:
    - Karena soal mencari web server, pasti memiliki protocol http
    - Mencari di display filter dengan kata kunci "http"
@@ -41,41 +41,98 @@ SOAL
    
       Screenshot pengerjaan:
    
-4. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
-a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
-Cara pengerjaan:
-   >>Mencari di display filter dengan filter expression "ip.addr == 239.255.255.250 && port == 3702"
-   >>Akan didapatkan informasi mengenai banyaknya paket yang tercapture dengan ip adrress dan port seperti yang diminta
+3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
+   a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
+      >>Cara pengerjaan:
+      - Mencari di display filter dengan filter expression "ip.addr == 239.255.255.250 && port == 3702"
+      - Akan didapatkan informasi mengenai banyaknya paket yang tercapture dengan ip adrress dan port seperti yang diminta yaitu sebanyak 21
 
-b. Protokol layer transport apa yang digunakan?
-   >>Dalam informasi paket menampilkan protokol apa yang dipakai dalam paket tersebut.
+   b. Protokol layer transport apa yang digunakan?
+      >>Cara pengerjaan:
+      - Dalam informasi paket menampilkan protokol apa yang dipakai dalam paket tersebut, yaitu UDP
+     
+     Screenshot pengerjaan:
 
-4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?
-Cara pengerjaan:
-   >>Mencari paket no 130 di display filter
-   >>Meng-klik 2 kali untuk mengetahui informasi lebih detail mengenai paket
-   >>Cheksum didapatkan
-   
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal3.png">
+      
+4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?   
+   >>Cara pengerjaan:
+   - Mencari paket no 130 di display filter
+   - Meng-klik 2 kali untuk mengetahui informasi lebih detail mengenai paket
+   - Checksum didapatkan yaitu 0x18e5 
+
+     Screenshot pengerjaan:
+
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal4.png">
+      
 5. Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
-a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
-   >>Setelah membuka file pcap, sudah terdapat informasi mengenai jumlah paket
+   a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
+      >>Cara pengerjaan:
+      - Setelah membuka file pcap, sudah terdapat informasi mengenai jumlah paket yaitu 60
    
-b. Port berapakah pada server yang digunakan untuk service SMTP?
-   >>Mengetikkan "smtp" pada display filter untuk mendapat kan service smtp
-   >>Pada frame 25, pada detail packet mengenai Tranmission Control Protocol didapatkan port yang dipakai adalah 25
+   b. Port berapakah pada server yang digunakan untuk service SMTP?
+      >>Cara pengerjaan:
+      - Mengetikkan "smtp" pada display filter untuk mendapat kan service smtp
+      - Pada frame 25, pada detail packet mengenai Tranmission Control Protocol didapatkan port yang dipakai adalah 25
 
-c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
-   >>Terdapat 2 ip, yang merupakan smtp
-   >>Untuk mengetahui apakah keduanya merupakan public IP, kami menggunakan situs web "Checking ip address"
-   >>Didapatkan 1 ip address yang merupakan public ip.
+   c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
+      >>Cara pengerjaan:
+      - Terdapat 2 ip, yang merupakan smtp
+      - Untuk mengetahui apakah keduanya merupakan public IP, kami menggunakan situs web "Checking ip address"
+      - Didapatkan 1 ip address yang merupakan public ip yaitu 74.53.140.153.
 
-8. Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+      Screenshot pengerjaan:
+         
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5.png">\
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_1.png">\
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_2.png">\
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_3.png">\
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_4.png">\
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_5.png">
+      
+6. Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
+   >>Cara pengerjaan:
+
+   Screenshot pengerjaan:
+         
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5.png">
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_1.png">
+      
+7. Berapa jumlah packet yang menuju IP 184.87.193.88?
+   >>Cara pengerjaan:
+   - Menggunakan kueri "ip.dst == 184.87.193.88" dan akan mendapatkan 6 paket yang terlihat
+
+   Screenshot pengerjaan:
+         
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal7.png">
+      
+8. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
+   >>Cara pengerjaan:
+   - Untuk mengambil semua protokol paket yang menuju port 80 maka kita dapat menggunakan kueri "tcp.dstport == 80 || udp.dstport == 80"
    
-9. Berapa jumlah packet yang menuju IP 184.87.193.88?
+   Screenshot pengerjaan:
+         
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal8.png">
    
-10. Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)
-   
-11. Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+9. Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+   >>Cara pengerjaan:
+   - Untuk mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34 adalah menggunakan kueri "ip.src == 10.51.40.1 && ip.dst != 10.39.55.34"
     
-12. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
+   Screenshot pengerjaan:
+         
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal9.png">
+   
+10. Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet
+   >>Cara pengerjaan:
+   - Pada wireshark, kita filter dulu "Telnet" untuk memunculkan semua paket dengan protokol telnet
+   - Setelah itu, kita cari dan perhatikan paket-paket yang terkait dengan proses login. Biasanya, login akan melibatkan beberapa paket yang mengirimkan kredensial (username dan password)
+   - Pada paket 259 berisi sebuah data "Password:", hal ini mengindikasikan bahwa letak data password akan ada di paket setelah ini dan untuk username ada di sebelumnya
+   - Pada paket 262 berisi sebuah data "kesayangannyak0k0", hal ini merupakan data password
+   - Kemudian untuk username bisa dicari pada paket-paket yang ada di sebelum 259, tiap paket di sebelum paket 259 mengirimkan 1 huruf yang nantinya membentuk kata dhafin. Hal ini diperkuat juga dengan paket 81
 
+   Screenshot pengerjaan:
+         
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10.png">
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_1.png">
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_2.png">
+   
