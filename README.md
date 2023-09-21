@@ -61,7 +61,7 @@ SOAL
    - Meng-klik 2 kali untuk mengetahui informasi lebih detail mengenai paket
    - Checksum didapatkan yaitu 0x18e5 
 
-     Screenshot pengerjaan:
+     >>Screenshot pengerjaan:
 
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal4.png">
       
@@ -81,7 +81,7 @@ SOAL
       - Untuk mengetahui apakah keduanya merupakan public IP, kami menggunakan situs web "Checking ip address"
       - Didapatkan 1 ip address yang merupakan public ip yaitu 74.53.140.153.
 
-      Screenshot pengerjaan:
+      >>Screenshot pengerjaan:
          
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5.png">\
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_1.png">\
@@ -99,7 +99,7 @@ SOAL
    - Clue 4: SOURCE ADDRESS ADALAH KUNCI SEMUANYA.
    Dari clue-clue tersebut, kita lihat dulu pada packet 7812. Karena clue mengatakan bahwa source address adalah kunci dari semuanya maka kita lihat IP Source pada paket 7812. IP Sourcenya adalah 104.18.14.101. Selanjutnya untuk melakukan substitusi a1z26 cipher, kita hilangkan titik pada IP source terlebih dahulu menjadi 1041814101. Jika kita pecah menjadi angka yang kurang dari 26 maka menjadi 10 4 18 14 10 1. Dilakukanlah proses subtitusi dan mendapatkan hasil JDRNJA.
 
-   Screenshot pengerjaan:
+   >>Screenshot pengerjaan:
          
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal6.png">
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal6_1.png">
@@ -108,7 +108,7 @@ SOAL
    >>Cara pengerjaan:
    - Menggunakan kueri "ip.dst == 184.87.193.88" dan akan mendapatkan 6 paket yang terlihat
 
-   Screenshot pengerjaan:
+   >>Screenshot pengerjaan:
          
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal7.png">
       
@@ -116,7 +116,7 @@ SOAL
    >>Cara pengerjaan:
    - Untuk mengambil semua protokol paket yang menuju port 80 maka kita dapat menggunakan kueri "tcp.dstport == 80 || udp.dstport == 80"
    
-   Screenshot pengerjaan:
+   >>Screenshot pengerjaan:
          
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal8.png">
    
@@ -124,7 +124,7 @@ SOAL
    >>Cara pengerjaan:
    - Untuk mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34 adalah menggunakan kueri "ip.src == 10.51.40.1 && ip.dst != 10.39.55.34"
     
-   Screenshot pengerjaan:
+   >>Screenshot pengerjaan:
          
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal9.png">
    
@@ -136,7 +136,7 @@ SOAL
    - Pada paket 262 berisi sebuah data "kesayangannyak0k0", hal ini merupakan data password
    - Kemudian untuk username bisa dicari pada paket-paket yang ada di sebelum 259, tiap paket di sebelum paket 259 mengirimkan 1 huruf yang nantinya membentuk kata dhafin. Hal ini diperkuat juga dengan paket 81
 
-   Screenshot pengerjaan:
+   >>Screenshot pengerjaan:
          
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10.png">
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_1.png">
