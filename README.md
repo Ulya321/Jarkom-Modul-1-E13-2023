@@ -4,40 +4,44 @@ SOAL
 
 1. User melakukan berbagai aktivitas dengan menggunakan protokol FTP. Salah satunya adalah mengunggah suatu file.
    
-a.  Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
+   a.  Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas tersebut?
+      >>Cara pengerjaan:
+      - Kata kunci pada soal tersebut adalah menggunggah suatu file
+      - Mencari packet yang ada informasi mengenai pengunggahan suatu file 
+      - Pada frame 147 didapatkan suatu informasi mengenai request pengunggahan file "Request: STOR c75-GrabThePhisher.zip"
+      - Jika diklik 2 kali maka akan memberikan informasi lebih detail mengenai sequence number (raw) pada packet tersebut  
+      - Sequence number (raw) = 258040667 
 
-Cara pengerjaan:
+   b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? 
+      >>Cara pengerjaan:
+      - Didapatkan informasi mengenai acknowledge number (raw) dari frame sebelumnya, yaitu frame 147
+      - Acknowledge number (raw) = 1044861039 
 
+   c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
+      >>Cara Pengerjaan:
+      - Suatu packet yang melakukan request sesuatu kepada server, pasti memerlukan suatu response
+      - Response yang berkaitan dengan GrabThePisher seperti request sebelumnya, terletak pada frame 149 dengan adanya informasi "Response: 150 Opening BINARY mode data connection for c75-GrabThePhisher.zip"
+      - Maka sequence number (raw) pada packet yang menunjukkan response didapatkan, yaitu 1044861039 
 
-   - Kata kunci pada soal tersebut adalah menggunggah suatu file
+   d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
+      >>Cara pengerjaan:
+      - Acknowledge number (raw) pada packet yang menunjukkan response didapatkan dari detail informasi pada frame sebelumnya
+      - Acknowledge number (raw) = 258040696
+  
+      Screenshot pengerjaan:
+
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal1.png">
+      <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal1_1.png">
    
-   - Mencari packet yang ada informasi mengenai pengunggahan suatu file
+3. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
+   >>Cara pengerjaan:
+   - Karena soal mencari web server, pasti memiliki protocol http
+   - Mencari di display filter dengan kata kunci "http"
+   - Akan didapatkan dalam salah satu paket informasi mengenai web server yang berkaitan yaitu "Gunicorn"
    
-   - Pada frame 147 didapatkan suatu informasi mengenai request pengunggahan file "Request: STOR c75-GrabThePhisher.zip"
+      Screenshot pengerjaan:
    
-   - Jika diklik 2 kali maka akan memberikan informasi lebih detail mengenai sequence number (raw) pada packet tersebut
-
-b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? 
-Cara pengerjaan:
-   >>Didapatkan informasi mengenai acknowledge number (raw) dari frame sebelumnya
-
-c. Berapakah sequence number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
- Cara Pengerjaan:
-   >>Suatu packet yang melakukan request sesuatu kepada server, pasti memerlukan suatu response
-   >>Response yang berkaitan dengan GrabThePisher seperti request sebelumnya, terletak pada frame 149 dengan adanya informasi "Response: 150 Opening BINARY mode data            connection for c75-GrabThePhisher.zip"
-   >>Maka sequence number (raw) pada packet yang menunjukkan response didapatkan
-
-d. Berapakah acknowledge number (raw) pada packet yang menunjukkan response dari aktivitas tersebut?
-Cara pengerjaan:
-   >>acknowledge number (raw) pada packet yang menunjukkan response didapatkan dari detail informasi pada frame sebelumnya
-
-2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
-Cara pengerjaan:
-   >>Karena soal mencari web server, pasti memiliki protocol http
-   >>Mencari di display filter dengan kata kunci "http"
-   >>AKan didapatkan dalam salah satu paket informasi mengenai web server yang berkaitan yaitu "Gunicorn"
-   
-3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
+4. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
 a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
 Cara pengerjaan:
    >>Mencari di display filter dengan filter expression "ip.addr == 239.255.255.250 && port == 3702"
