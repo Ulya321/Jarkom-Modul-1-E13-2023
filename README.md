@@ -33,15 +33,15 @@ SOAL
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal1.png">
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal1_1.png">
    
-1. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
+2. Sebutkan web server yang digunakan pada portal praktikum Jaringan Komputer!
    >>Cara pengerjaan:
    - Karena soal mencari web server, pasti memiliki protocol http
    - Mencari di display filter dengan kata kunci "http"
    - Akan didapatkan dalam salah satu paket informasi mengenai web server yang berkaitan yaitu "Gunicorn"
    
-      Screenshot pengerjaan:
+      >>Screenshot pengerjaan:
    
-2. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
+3. Dapin sedang belajar analisis jaringan. Bantulah Dapin untuk mengerjakan soal berikut:
    a. Berapa banyak paket yang tercapture dengan IP source maupun destination address adalah 239.255.255.250 dengan port 3702?
       >>Cara pengerjaan:
       - Mencari di display filter dengan filter expression "ip.addr == 239.255.255.250 && port == 3702"
@@ -55,7 +55,7 @@ SOAL
 
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal3.png">
       
-3. Berapa nilai checksum yang didapat dari header pada paket nomor 130?   
+4. Berapa nilai checksum yang didapat dari header pada paket nomor 130?   
    >>Cara pengerjaan:
    - Mencari paket no 130 di display filter
    - Meng-klik 2 kali untuk mengetahui informasi lebih detail mengenai paket
@@ -65,7 +65,7 @@ SOAL
 
       <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal4.png">
       
-4. Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
+5. Elshe menemukan suatu file packet capture yang menarik. Bantulah Elshe untuk menganalisis file packet capture tersebut.
    a. Berapa banyak packet yang berhasil di capture dari file pcap tersebut?
       >>Cara pengerjaan:
       - Setelah membuka file pcap, sudah terdapat informasi mengenai jumlah paket yaitu 60
