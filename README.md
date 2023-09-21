@@ -7,8 +7,11 @@ a. Berapakah sequence number (raw) pada packet yang menunjukkan aktivitas terseb
 
 Cara pengerjaan:
    -Kata kunci pada soal tersebut adalah menggunggah suatu file
+   
    -Mencari packet yang ada informasi mengenai pengunggahan suatu file
+   
    -Pada frame 147 didapatkan suatu informasi mengenai request pengunggahan file "Request: STOR c75-GrabThePhisher.zip"
+   
    -Jika diklik 2 kali maka akan memberikan informasi lebih detail mengenai sequence number (raw) pada packet tersebut
 
 b. Berapakah acknowledge number (raw) pada packet yang menunjukkan aktivitas tersebut? 
