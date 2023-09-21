@@ -142,10 +142,8 @@ SOAL
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_1.png">
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_2.png">
 
-
-
 \
-[CATATAN] 
-Kendala/error yang dialami:
+\
+[CATATAN] Kendala/error yang dialami:
 - VPN ITS yang tiba-tiba tidak dapat digunakan, "No Internet Connection" sehingga menghambat pengerjaan praktikum
 - Belum selesai mengerjakan soal nomer 6 saat jadwal praktikum
