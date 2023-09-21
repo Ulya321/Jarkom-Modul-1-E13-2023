@@ -102,6 +102,7 @@ SOAL
    Screenshot pengerjaan:
          
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal6.png">
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal6_1.png">
       
 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
    >>Cara pengerjaan:
