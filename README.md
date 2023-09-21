@@ -92,11 +92,16 @@ SOAL
       
 6. Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
    >>Cara pengerjaan:
+   Clue yang diberikan adalah sebagai berikut:
+   - Clue 1: Sepertinya ada yang salah dengan penulisan tersebut secara KBBI. Ada sesuatu yang Besar di depan mata.
+   - Clue 2: Jenis cipher merupakan substitusi a1z26 Cipher
+   - Clue 3: Rentang Huruf yang digunakan Huruf A-R, 1-18 dengan Jawaban 6 Huruf.
+   - Clue 4: SOURCE ADDRESS ADALAH KUNCI SEMUANYA.
+   Dari clue-clue tersebut, kita lihat dulu pada packet 7812. Karena clue mengatakan bahwa source address adalah kunci dari semuanya maka kita lihat IP Source pada paket 7812. IP Sourcenya adalah 104.18.14.101. Selanjutnya untuk melakukan substitusi a1z26 cipher, kita hilangkan titik pada IP source terlebih dahulu menjadi 1041814101. Jika kita pecah menjadi angka yang kurang dari 26 maka menjadi 10 4 18 14 10 1. Dilakukanlah proses subtitusi dan mendapatkan hasil JDRNJA.
 
    Screenshot pengerjaan:
          
-   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5.png">
-   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal5_1.png">
+   <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal6.png">
       
 7. Berapa jumlah packet yang menuju IP 184.87.193.88?
    >>Cara pengerjaan:
@@ -135,4 +140,11 @@ SOAL
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10.png">
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_1.png">
    <img width="470" alt="soal1" src="https://github.com/Ulya321/Jarkom-Modul-1-E13-2023/blob/main/Images/soal10_2.png">
-   
+
+
+
+\
+[CATATAN] 
+Kendala/error yang dialami:
+- VPN ITS yang tiba-tiba tidak dapat digunakan, "No Internet Connection" sehingga menghambat pengerjaan praktikum
+- Belum selesai mengerjakan soal nomer 6 saat jadwal praktikum
